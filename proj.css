@@ -71,6 +71,7 @@ nav ul li a:active {
     border-radius: 20px;
     transform: scale(1.05);
 }
+
 .order {
     text-align: center;
     padding: 50px 20px;
@@ -112,15 +113,19 @@ nav ul li a:active {
     border: 1px solid grey;
     border-radius: 5px;
 }
-.order-button {
+.order-button, .button {
     display: inline-block;
     background-color: #ff8800;
     color: white;
     padding: 10px 20px;
+    border: none;
     border-radius: 5px;
     text-decoration: none;
     font-weight: bold;
     transition: 0.3s;
+}
+.menu .button {
+    text-decoration: none;
 }
 .order-button:hover{
     background-color: black;
