@@ -211,3 +211,32 @@ footer .social-icons img {
     margin: 0 10px;
 }
 
+@media (max-width: 480px) {
+    /* this is for small screens like mobile phones */
+    header {
+        padding: 15px;
+        text-align: center;
+        position: static;
+        top: -20;
+    }
+    nav ul li {
+        font-size: 16px;
+    }
+    .hero h1 {
+        font-size: 24px;
+    }
+    .hero p {
+        font-size: 14px;
+    }
+    .menu .drinks {
+        flex-direction: column;
+        gap: 15px;
+    }
+    .menu .drink {
+        width: 100%;
+        text-align: center;
+    }
+    .order form {
+        padding: 20px;
+    }
+}
