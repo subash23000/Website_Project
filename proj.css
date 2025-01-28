@@ -118,3 +118,56 @@ nav ul li a:active {
     background-color: black;
     color: white;
 }
+.locations img {
+    width: 250px;
+    border-radius: 10px;
+}
+.location {
+    display: inline-block;
+    margin: 20px;
+    /* text-align: center; */
+
+
+}
+.location:hover,
+.location:active {
+    background-color: lightblue;
+    padding: 8px 12px;
+    border-radius: 5px;
+}
+.feedback {
+    text-align: center;
+    padding: 50px 20px;
+    background: white;
+}
+.feedback h2 {
+    color: #ff8800;
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+}
+.feedback p {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+    color: gray;
+}
+.feedback form {
+    max-width: 600px;
+    margin: 0 auto;
+    background-color: white;
+    padding: 30px;
+    border-radius: 10px;
+
+}
+.feedback-button {
+    display: inline-block;
+    background: #ff8800;
+    color: #fff;
+    border: none;
+    padding: 15px 30px;
+    font-size: 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.feedback-button:hover {
+    background-color: black;
+    color: white;}
