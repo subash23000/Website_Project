@@ -31,3 +31,27 @@ nav ul li a:active {
     padding: 8px 12px;
     border-radius: 5px;
 }
+.intro,  .welcome,.menu {
+    text-align: center;
+    padding: 50px 20px;
+}
+.intro img {
+    max-width: 100%;
+    border-radius: 10px;
+}
+
+.welcome,.menu {
+    text-align: center;
+    padding: 50px 20px;
+}
+
+.drinks {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+.drink img {
+    width: 100px;
+    border-radius: 10px;
+}
