@@ -102,7 +102,7 @@ nav ul li a:active {
     width: 100%;
     padding: 10px;
     font-size: 1rem;
-    border: 1px solid black;
+    border: 1px solid grey;
     border-radius: 5px;
 }
 .order-button {
@@ -125,7 +125,8 @@ nav ul li a:active {
 .location {
     display: inline-block;
     margin: 20px;
-    /* text-align: center; */
+    text-align: center;
+    justify-content: space-around;
 
 
 }
