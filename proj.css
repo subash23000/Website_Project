@@ -11,6 +11,9 @@ header {
     align-items: center;
     background-color: #ff8800;
     padding: 15px 50px;
+    position: sticky;
+    top: -20px;
+    
 }
 .logo img {
     width: 50px;
@@ -118,16 +121,16 @@ nav ul li a:active {
     background-color: black;
     color: white;
 }
+.locations {
+    text-align: center;
+}
 .locations img {
     width: 250px;
     border-radius: 10px;
 }
 .location {
     display: inline-block;
-    justify-content: space-around;
-    align-items: center;
-    margin: 30px;
-
+    margin: 20px;
 
 }
 .location:hover,
