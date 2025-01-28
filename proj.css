@@ -33,6 +33,7 @@ nav ul li a {
     text-decoration: none;
     color: black;
     font-weight: bolder;
+    transition: 0.3s;
 }
 nav ul li a:hover, 
 nav ul li a:active {
@@ -49,7 +50,7 @@ nav ul li a:active {
     border-radius: 10px;
 }
 
-.welcome,.menu {
+.welcome,.menu,.locations {
     text-align: center;
     padding: 50px 20px;
 }
@@ -63,10 +64,12 @@ nav ul li a:active {
 .drink img {
     width: 100px;
     border-radius: 10px;
+    transition: transform 0.3s;
 }
 .drink img:hover{
     width: 200px;
     border-radius: 20px;
+    transform: scale(1.05);
 }
 .order {
     text-align: center;
@@ -110,13 +113,14 @@ nav ul li a:active {
     border-radius: 5px;
 }
 .order-button {
-    display: inline;
+    display: inline-block;
     background-color: #ff8800;
     color: white;
     padding: 10px 20px;
     border-radius: 5px;
     text-decoration: none;
     font-weight: bold;
+    transition: 0.3s;
 }
 .order-button:hover{
     background-color: black;
@@ -212,7 +216,7 @@ footer .social-icons img {
     margin: 0 10px;
 }
 @media (max-width: 769px) {
-    /* for tablets and smaller screens */
+    /* this is for tablets and smaller screens */
     header {
         flex-direction: column;
         align-items: flex-start;
