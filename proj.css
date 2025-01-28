@@ -124,9 +124,9 @@ nav ul li a:active {
 }
 .location {
     display: inline-block;
-    margin: 20px;
-    text-align: center;
     justify-content: space-around;
+    align-items: center;
+    margin: 30px;
 
 
 }
@@ -171,4 +171,40 @@ nav ul li a:active {
 }
 .feedback-button:hover {
     background-color: black;
-    color: white;}
+    color: white;
+}
+.reviews {
+    text-align: center;
+    background: #fff3e0;
+    padding: 50px 20px;
+}
+.reviews .review {
+    max-width: 600px;
+    margin: 20px auto;
+    background: #fff;
+    padding: 20px;
+    border-left: 5px solid #ff8800;
+    border-radius: 10px;
+
+}
+
+.reviews h2 {
+    color: #ff8800;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background: #333;
+    color: white;
+}
+footer a {
+    color: #ff8800;
+    text-decoration: none;
+}
+
+footer .social-icons img {
+    width: 30px;
+    margin: 0 10px;
+}
+
