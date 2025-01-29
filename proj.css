@@ -71,6 +71,9 @@ nav ul li a:active {
     border-radius: 20px;
     transform: scale(1.05);
 }
+button a {
+    text-decoration: none;
+}
 
 .order {
     text-align: center;
