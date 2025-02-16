@@ -86,24 +86,26 @@ button a {
 }
 
 .order,
-.reservation {
+.reservation-form {
     text-align: center;
     padding: 50px 20px;
     background: white;
     border-top: 5px solid #ff8800;
 }
 .order h2,
-.reservation h2 {
+.reservation-form h2 {
     color: #ff8800;
     font-size: 2rem;
     margin-bottom: 10px;
 }
-.order p {
+.order p,
+.reservation-form p {
     font-size: 1.2rem;
     color: gray;
     margin-bottom: 30px;
 }
-.order form {
+.order form,
+.reservation-form form {
     max-width: 600px;
     margin: 0 auto;
     background-color: #fff;
@@ -128,7 +130,9 @@ button a {
     border: 1px solid grey;
     border-radius: 5px;
 }
-.order-button, .button {
+.order-button,
+.button,
+.reserve-button {
     display: inline-block;
     background-color: #ff8800;
     color: white;
