@@ -85,13 +85,15 @@ button a {
     text-decoration: none;
 }
 
-.order {
+.order,
+.reservation {
     text-align: center;
     padding: 50px 20px;
     background: white;
     border-top: 5px solid #ff8800;
 }
-.order h2 {
+.order h2,
+.reservation h2 {
     color: #ff8800;
     font-size: 2rem;
     margin-bottom: 10px;
